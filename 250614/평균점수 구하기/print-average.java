@@ -8,6 +8,6 @@ public class Main {
     for (int i = 0; i < score; i++){
         total += sc.nextDouble();
     }
-        System.out.printf("%1.1f",(float)total / score);
+        System.out.printf("%.1f",(float)total / score);
     }
 }
