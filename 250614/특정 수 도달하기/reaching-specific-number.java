@@ -17,6 +17,6 @@ public class Main {
                 break;
             }
         }
-        System.out.printf("%d %4.1f" , total , (double)total/count);
+        System.out.printf("%d %3.1f" , total , (double)total/count);
     }
 }
