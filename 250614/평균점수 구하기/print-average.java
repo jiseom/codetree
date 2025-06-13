@@ -7,7 +7,7 @@ public class Main {
     for (int i = 0; i < score; i++){
         total += sc.nextDouble();
     }
-        System.out.printf("%.1f\n",(float)total / score);
+        System.out.printf("%.1f\n",total / score);
 
     }
 }
