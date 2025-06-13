@@ -10,7 +10,7 @@ public class Main {
         for (int i = 0; i < 10; i++){
             int num = sc.nextInt();
             
-            if(num <= 250){
+            if(num < 250){
                 total += num;
                 count = i+1;
             }else{
